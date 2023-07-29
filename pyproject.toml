@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "boba-bot"
+version = "0.1.0"
+description = "A custom bot made for the Boba World Discord server."
+authors = ["snipe <72265661+notsniped@users.noreply.github.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{include = "boba_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"discord.py" = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
